@@ -1,0 +1,68 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<!--Menu-->
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="libs/bootstrap-3.3.7-dist/css/bootstrap.css" type="text/css" rel="stylesheet" />
+        <link href="css/homescreen.css" type="text/css" rel="stylesheet" />
+        <script type="text/javascript" src="commonDefinitions.js"></script>
+        <script type="text/javascript" src="libs/jquery-3.2.1.js"></script>
+        <script type="text/javascript" src="libs/jquery-migrate-3.0.0.js"></script>
+        <script type="text/javascript" src="../../system/js/odkCommon.js"></script>
+        <script type="text/javascript" src="../../system/js/odkData.js"></script>
+        <script type="text/javascript" src="../../system/tables/js/odkTables.js"></script>
+        
+        <script type="text/javascript" src="js/util.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <style>
+        .form-group {
+            margin:30px 0;
+        }
+        .btnInc {
+            background-color: darkseagreen;
+            color: white;
+            font-size: 25px;
+            border-radius: 4px;
+            display: inline-block;
+            border: none;
+            margin: 0;
+        }
+        .btnFU {
+            background-color: lightseagreen;
+            color: white;
+            font-size: 25px;
+            border-radius: 4px;
+            display: inline-block;
+            border: none;
+            margin: 0;
+        }
+        .btnSync {
+            background-color: purple;
+            color: white;
+            font-size: 25px;
+            border-radius: 4px;
+            display: inline-block;
+            border: none;
+            margin-top: 0;
+        }
+        </style>
+    </head>
+
+    <body onload="display();">
+        <div id="main" class="container" style="height: 100vh;">
+            <h1>Estudo de máscara</h1>
+            <div id="wrapper">
+                <div class="form-group">
+                    <button id="btnInc" class="btnInc">Inclusão</button> 
+                </div>
+                <div class="form-group">
+                    <button id="btnFU" class="btnFU">Seguimento</button> 
+                </div>
+                <hr/>
+                <div class="form-group">
+                    <button id="btnSync" class="btnSync">Sincronizar</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
