@@ -2,6 +2,7 @@
 <html>
 <!--Menu-->
     <head>
+        <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link href="libs/bootstrap-3.3.7-dist/css/bootstrap.css" type="text/css" rel="stylesheet" />
         <link href="css/homescreen.css" type="text/css" rel="stylesheet" />
@@ -13,43 +14,31 @@
         <script type="text/javascript" src="../../system/tables/js/odkTables.js"></script>
         
         <script type="text/javascript" src="js/util.js"></script>
-        <script type="text/javascript" src="js/index.js"></script>
-        <style>
-        .form-group {
-            margin:30px 0;
-        }
-        .btnInc {
-            background-color: lightsalmon;
-            color: white;
-            font-size: 25px;
-            border-radius: 4px;
-            display: inline-block;
-            border: none;
-            margin: 0;
-        }
-        .btnList {
-            background-color: steelblue;
-            color: white;
-            font-size: 25px;
-            border-radius: 4px;
-            display: inline-block;
-            border: none;
-            margin: 0;
-        }
+        <script type="text/javascript" src="js/list.js"></script>
         
-        </style>
+        <style>
+            ul {
+                list-style:none;
+            }     
+            button.person {
+                background-color: steelblue;
+                text-align:left;
+                font-size: x-large;
+                padding-left: 10px;
+                margin:10px;
+                height:auto;
+                width:100%;
+                color: white; 
+            }
+            </style>
     </head>
 
-    <body onload="display();">
+    <body onload="display()">
         <div id="main" class="container" style="height: 100vh;">
-            <h1>Acesso a serviços de SMI</h1>
-            <div id="wrapper">
-                <div class="form-group">
-                    <button id="btnInc" class="btnInc">Nova entrevista</button> 
-                </div>
-                <div class="form-group">
-                    <button id="btnList" class="btnList">Lista de entrevistas</button> 
-                </div>
+            <h1>Lista de entrevistas</h1>
+            <div>
+            <ul id="persons" style="padding:20px;">            
+            </ul>
             </div>
         </div>
     </body>

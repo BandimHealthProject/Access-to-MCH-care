@@ -1,0 +1,360 @@
+regiao,reg,tabanca,tab
+Oio,1,Ntchugal,1
+Oio,1,Blas,2
+Oio,1,Colicunda,3
+Oio,1,Wanquilim,4
+Oio,1,Mandingara,5
+Oio,1,Cutia,6
+Oio,1,Rossum,7
+Oio,1,Amedalae,9
+Oio,1,Ntchane,10
+Oio,1,Quinhaque Mansoa,11
+Oio,1,Ntchangue Bideta,12
+Oio,1,Ntchangue Subal,13
+Oio,1,Jogudul Com,14
+Oio,1,Joaquim Com,15
+Oio,1,Cangha Ntchugal,16
+Oio,1,Cangha Cocry,17
+Oio,1,Encheia,18
+Oio,1,Cadjque,19
+Oio,1,Mpas,20
+Oio,1,Quinhaque Ncor,21
+Oio,1,Quinhaque,22
+Oio,1,Untche,23
+Oio,1,Cumbidjam,24
+Oio,1,Sintcham,25
+Oio,1,Sansancutoto,26
+Oio,1,Bironque,27
+Oio,1,Gendo,28
+Oio,1,Mansaba,29
+Oio,1,Sanaia,30
+Oio,1,Galenque,31
+Oio,1,Demba So,32
+Biombo,2,Bilma,1
+Biombo,2,Gua,2
+Biombo,2,Ntusse,3
+Biombo,2,Ponta Vicente,4
+Biombo,2,Incaite,5
+Biombo,2,Qindinga,6
+Biombo,2,Intuzinho,7
+Biombo,2,Bambadinca,8
+Biombo,2,Iem,9
+Biombo,2,Buno,10
+Biombo,2,Prite,11
+Biombo,2,Reino Quicete,12
+Biombo,2,Betafte,13
+Biombo,2,Bissa,14
+Biombo,2,Reino Tor,15
+Biombo,2,Dorse,16
+Biombo,2,Blim Blim,17
+Biombo,2,Quinsana,18
+Biombo,2,Quita,19
+Biombo,2,Ondame,20
+Biombo,2,Blom,21
+Biombo,2,Bocomul,22
+Biombo,2,Ome,23
+Biombo,2,Quinhamel,24
+Biombo,2,Ponta Augusto Vicente,25
+Biombo,2,Bilmate,26
+Gabu,5,Badjefa,1
+Gabu,5,Gundjur,2
+Gabu,5,Carabele,3
+Gabu,5,Nema,4
+Gabu,5,Dobanla,5
+Gabu,5,Sintcham Delo Mamado,6
+Gabu,5,Sintcham Delo Malam,7
+Gabu,5,Sintcham Delo Umaro,8
+Gabu,5,Ponhe Maunde,9
+Gabu,5,Candjufa,10
+Gabu,5,Olocunda,11
+Gabu,5,Funtufuntula,12
+Gabu,5,Sintcham Iero Djadja,13
+Gabu,5,Buruntuma,14
+Gabu,5,Dara Braima,15
+Gabu,5,Padjama,16
+Gabu,5,Sintcham Cunadi (Camedina),17
+Gabu,5,Djebacunda,18
+Gabu,5,Afia,19
+Gabu,5,Camanca,20
+Gabu,5,Fasse (Bairo Ii),21
+Gabu,5,Mafonco,22
+Gabu,5,Samba Canda,23
+Gabu,5,Sintcham Nhapo,24
+Gabu,5,Tabadjenque,25
+Gabu,5,Tchetche,26
+Cacheu,7,Bula (Pobos De Baixo),9
+Cacheu,7,Djolmete,10
+Cacheu,7,Quissas,11
+Cacheu,7,Balile,12
+Cacheu,7,Peledje,13
+Cacheu,7,Cabienque,14
+Cacheu,7,Pendai,15
+Cacheu,7,Pelundo (Watche),16
+Cacheu,7,Dapitai,17
+Cacheu,7,Cacanda,22
+Cacheu,7,Djopa,23
+Cacheu,7,Cajuguite,24
+Cacheu,7,Batucar,27
+Cacheu,7,Pocumal,28
+Cacheu,7,Ponta Pedra,29
+Cacheu,7,Ponta Campo,30
+Cacheu,7,Tubebe,31
+Cacheu,7,Cassenate,44
+Cacheu,7,Dungur,45
+Cacheu,7,Sao Vicente,46
+Cacheu,7,Bucucur,47
+Cacheu,7,Batau,48
+Cacheu,7,Barame,49
+Cacheu,7,Barala,50
+Cacheu,7,Mato Dinghal,51
+Cacheu,7,Fei,54
+Cacheu,7,Capo,55
+Bafata,8,Anambe,1
+Bafata,8,Ponta Novo,2
+Bafata,8,Bricama,3
+Bafata,8,Djada,4
+Bafata,8,Biana,5
+Bafata,8,Nhambanham,6
+Bafata,8,Sintcham Sene,7
+Bafata,8,Cumuda,8
+Bafata,8,Bambadinca,9
+Bafata,8,Gambiel,10
+Bafata,8,Samba Silate,11
+Bafata,8,Onco,12
+Bafata,8,Cumuda,13
+Bafata,8,Madina Batanghel,14
+Bafata,8,Sauiam,15
+Bafata,8,Cancubandje Maunde,16
+Bafata,8,Tabanani,17
+Bafata,8,Galomaro Cosse,18
+Bafata,8,Sintcham Nhobo,19
+Bafata,8,Missira,20
+Bafata,8,Fode Sana ,21
+Bafata,8,Pacua,22
+Bafata,8,Sare Ndjobo,23
+Bafata,8,Cancodia,24
+Bafata,8,Sintcham Mole ,25
+Bafata,8,Samaro,26
+Bafata,8,Sintcham Dado,27
+Bafata,8,Sintcham Dembel,28
+Bafata,8,Ga Fati,29
+Quinara,11,Mbunga,1
+Quinara,11,Gambil,2
+Quinara,11,Ntughane,3
+Quinara,11,Banta,4
+Quinara,11,Bulensaba,5
+Quinara,11,Dutadjara,6
+Quinara,11,Ponta Nobo,7
+Quinara,11,Ncassol,8
+Quinara,11,Ndjassan,9
+Quinara,11,Batabali,10
+Quinara,11,Empada Mandinga,11
+Quinara,11,Madina Baixo,12
+Quinara,11,Darsalam,13
+Quinara,11,Ga Tchuma Beafada,14
+Quinara,11,Ga Ntchuma Manjaco,15
+Quinara,11,Ga Cumba Balanta,16
+Quinara,11,Ga Cumba Beafada,17
+Quinara,11,Farancunda,18
+Quinara,11,Bissassima,19
+Quinara,11,Nan Balanta,20
+Quinara,11,Djufa,21
+Quinara,11,Madina,22
+Quinara,11,Boduco Sinho,23
+Quinara,11,Fulacunda Baixo,24
+Quinara,11,Mbassa,25
+Quinara,11,Ga Mamudo,26
+Quinara,11,Ga Djatra,27
+Quinara,11,Ga Mole,28
+Quinara,11,Lamane,29
+Quinara,11,Ga Perto,30
+Tombali,12,Gadamael Porto,1
+Tombali,12,Cassaca,2
+Tombali,12,Camiconde,3
+Tombali,12,Camiconde Almame,4
+Tombali,12,Cafal,5
+Tombali,12,Cadique Mbitna,6
+Tombali,12,Cadique Nalu,7
+Tombali,12,Iemberem,8
+Tombali,12,Botche Cul,9
+Tombali,12,Flak Ndjam,10
+Tombali,12,Bedanda Baixo,11
+Tombali,12,Calima,12
+Tombali,12,Catungo Nalu,13
+Tombali,12,Ga Sala ,14
+Tombali,12,Canjola Porto,15
+Tombali,12,Tchugue,16
+Tombali,12,Cubumba Mato,17
+Tombali,12,Cabilol,18
+Tombali,12,Cantone,19
+Tombali,12,Botche Mendi,20
+Tombali,12,Unal,21
+Tombali,12,Cumbidjam,22
+Tombali,12,Contabane,23
+Bolama Bijagos,13,Bruce,1
+Bolama Bijagos,13,Murcunda,2
+Bolama Bijagos,13,Bejante,3
+Bolama Bijagos,13,Ancadona,4
+Bolama Bijagos,13,Timbato,5
+Bolama Bijagos,13,Ambanha,6
+Bolama Bijagos,13,Bidjena,7
+Bolama Bijagos,13,Baixada,8
+Bolama Bijagos,13,Buba Luanda,9
+Bolama Bijagos,13,Bairo Comercial,10
+Bolama Bijagos,13,Estancia,11
+Bolama Bijagos,13,An Onho (Uno),12
+Bolama Bijagos,13,Ancamona,13
+Bolama Bijagos,13,Anhimago,14
+Bolama Bijagos,13,Ancope,15
+Bolama,14,Praca,1
+Bolama,14,Sanssala,2
+Bolama,14,Telegra,3
+Bolama,14,Bairo 14,4
+Bolama,14,Ntatcha,5
+Bolama,14,Sintcham,6
+Bolama,14,Ga Beafada,7
+Bolama,14,Cassucai,8
+Bolama,14,Assumada,9
+Bolama,14,Castelo,10
+Bolama,14,Luanda,11
+Bolama,14,Portugal,12
+Bolama,14,Wato,13
+Bolama,14,Bolama Baixo,14
+Bolama,14,Calege,15
+Bolama,14,Pontia,16
+Bolama,14,Lala,17
+Bolama,14,Ga Balanta,18
+Bolama,14,Marssas,19
+Bolama,14,Madina,20
+Bolama,14,Canema,21
+Bolama,14,Alto Cabral,22
+Bolama,14,Ponta Apili,23
+Sao Domigos,15,Amone,1
+Sao Domigos,15,Apilho,2
+Sao Domigos,15,Blansan,3
+Sao Domigos,15,N`Daia,4
+Sao Domigos,15,Capal,5
+Sao Domigos,15,Mansacunda,6
+Sao Domigos,15,Djebacunda,7
+Sao Domigos,15,Faredjanto,8
+Sao Domigos,15,Arame,18
+Sao Domigos,15,Djamosso,19
+Sao Domigos,15,Ngud Grande,20
+Sao Domigos,15,Ossor,21
+Sao Domigos,15,Lokpas,25
+Sao Domigos,15,Carabane Cherife,26
+Sao Domigos,15,Antotinha Zinho,32
+Sao Domigos,15,Aquintcha,33
+Sao Domigos,15,Binta Balanta,34
+Sao Domigos,15,Bucucur,35
+Sao Domigos,15,Canjande,36
+Sao Domigos,15,Gendem,37
+Sao Domigos,15,Atanque,38
+Sao Domigos,15,Bulol,39
+Sao Domigos,15,Budjim,40
+Sao Domigos,15,Catom,41
+Sao Domigos,15,Campada Namoante,42
+Sao Domigos,15,Djegue Ii,43
+Sao Domigos,15,Quissir,52
+Sao Domigos,15,Djifungo,53
+MSF Bafata,16,Binate M'bana,21
+MSF Bafata,16,Curura,22
+MSF Bafata,16,Sare Iero Ba,23
+MSF Bafata,16,Sintchan N'ghalem,24
+MSF Bafata,16,Sintchan Sori,25
+MSF Bafata,16,Embalocunda,26
+MSF Bafata,16,Djada,27
+MSF Bafata,16,Bairro welingara,28
+MSF Bafata,16,Colinto,29
+MSF Bafata,16,Sta Mamado Bobo,30
+MSF Bafata,16,Sta Naunde Nhada,31
+MSF Bafata,16,Bantamdjam,32
+MSF Bafata,16,Sta-Sarfo,33
+MSF Bafata,16,Ga-Djai-1,34
+MSF Bafata,16,Candombe Mane,35
+MSF Bafata,16,Sare Besse,36
+MSF Bafata,16,Sare-Nhanhala,37
+MSF Bafata,16,Embalocunda,38
+MSF Bafata,16,Sare-Tchumo,39
+MSF Bafata,16,Sintcham Dico,40
+MSF Bafata,16,Sintcham Samuna,41
+MSF Bafata,16,Sintcham Dulo I,42
+MSF Bafata,16,Sintcham Cantaba,43
+MSF Bafata,16,Madina Mansona,44
+MSF Bafata,16,Canhamina,45
+MSF Bafata,16,Dar Salam,46
+MSF Bafata,16,Fafabe,47
+MSF Bafata,16,Sintcha Ganha,48
+MSF Bafata,16,Sibidjan Mandinga,49
+MSF Bafata,16,Madina Sael,50
+MSF Bafata,16,Canquinto,51
+MSF Bafata,16,Ioroindi 1,52
+MSF Bafata,16,Sare Saba,53
+MSF Bafata,16,Cambedare,54
+MSF Bafata,16,Tabato,55
+MSF Bafata,16,Brincassa,56
+MSF Bafata,16,Sare-Bailo,57
+MSF Bafata,16,Manta Seidi,58
+MSF Bafata,16,Walicunda,59
+MSF Bafata,16,Coboto,60
+MSF Bafata,16,Ga-Mamudo,61
+MSF Bafata,16,Bambadinca Cossara,62
+MSF Bafata,16,Baria,63
+MSF Bafata,16,Quere-wane,64
+MSF Bafata,16,Sint Sori,65
+MSF Bafata,16,Missira Cuta,66
+MSF Bafata,16,Sint Aliu,67
+MSF Bafata,16,Tininto,68
+MSF Bafata,16,Tininto Mandjaco,69
+MSF Bafata,16,Sint Samadeia,70
+MSF Bafata,16,Sint Mussa,71
+MSF Bafata,16,Sint  Ansumane,72
+MSF Bafata,16,Campampe,73
+MSF Bafata,16,Sare Midjaca,74
+MSF Bafata,16,Sare Demanda,75
+MSF Bafata,16,Madina Ioba,76
+MSF Bafata,16,Sare Djata,77
+MSF Bafata,16,Sint Biron,78
+MSF Bafata,16,Sint Dembadjau,79
+MSF Bafata,16,Sint Umaro,80
+MSF Bafata,16,Djinane,81
+MSF Bafata,16,Sare Tchican,82
+MSF Bafata,16,Cansamina,83
+MSF Bafata,16,Sint Fina,84
+MSF Bafata,16,Sabalencunda,85
+MSF Bafata,16,Querowane,86
+MSF Bafata,16,Lenquel,87
+MSF Bafata,16,Sanghare,88
+MSF Bafata,16,Caira Sane ,89
+MSF Bafata,16,Candemba Uri,90
+MSF Bafata,16,Sare Bamba,91
+MSF Bafata,16,Wadje Mandinga,92
+MSF Bafata,16,Mamacono,93
+MSF Bafata,16,Sint MFali,94
+MSF Bafata,16,Wadje Fula,95
+MSF Bafata,16,Sint Djae,96
+MSF Bafata,16,Sint Samba,97
+MSF Bafata,16,Sint Bambe,98
+MSF Bafata,16,Sint Sira,99
+MSF Bafata,16,Sare Salum,100
+MSF Bafata,16,Sint Demba,101
+MSF Bafata,16,Moro,102
+MSF Bafata,16,Fanca Sancule,103
+MSF Bafata,16,Sare Peta,104
+MSF Bafata,16,Sare Canta,105
+MSF Bafata,16,Lamoy,106
+MSF Bafata,16,Campra Jauba,107
+MSF Bafata,16,Sare Coli Embalo,108
+MSF Bafata,16,Sare Mamudo,109
+MSF Bafata,16,Sint Damiro,110
+MSF Bafata,16,Sint Asse,111
+MSF Bafata,16,Sint Coli Binta,112
+MSF Bafata,16,Sintcham Aliu,113
+MSF Bafata,16,Panalitcha,114
+MSF Bafata,16,Sintcham Sambael,115
+MSF Bafata,16,Sintcham Djaie,116
+MSF Bafata,16,Sibidjam Fula,117
+MSF Bafata,16,Sore Mali,118
+MSF Bafata,16,Sitcham Niede,119
+MSF Bafata,16,Bairro Nema,120
+MSF Bafata,16,Djana,121

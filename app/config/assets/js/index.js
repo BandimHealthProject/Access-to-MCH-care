@@ -22,16 +22,11 @@ function initButtons() {
     // Inclusion
     var btnInc = $('#btnInc');
     btnInc.on("click", function() {
-        odkTables.launchHTML(null, 'config/assets/incBairroList.html');
+        odkTables.launchHTML(null, 'config/assets/inclusion.html');
     });
-    // Follow-up
-    var btnFU = $('#btnFU');
-    btnFU.on("click", function() {
-        odkTables.launchHTML(null, 'config/assets/fuBairroList.html');
-    });
-    // Sync
-    var btnSync = $('#btnSync');
-    btnSync.on("click", function() {
-        odkCommon.doAction(null, "org.opendatakit.services.sync.actions.activities.SyncActivity", {"componentPackage": "org.opendatakit.services", "componentActivity": "org.opendatakit.services.sync.actions.activities.SyncActivity"});   
+    // List
+    var btnList = $('#btnList');
+    btnList.on("click", function() {
+        odkTables.launchHTML(null, 'config/assets/list.html');
     });
 }
