@@ -145,7 +145,12 @@ module.exports = function (grunt) {
         // The db directory path on the phone. %APP% should be replaced by app name
 		// We use write-ahead-logging, so we need to pull both sqlite.db and sqlite.wal
         deviceDbDirectoryPath: '/sdcard/opendatakit/%APP%/data/webDb',
-        xlsxDir: 'xlsxconverter'
+        xlsxDir: 'xlsxconverter',
+        // Directory for instance folder
+        instanceDir: 'data/tables',
+        // The directory where the instance objects are output.
+        outputInstancesDir: 'output/media'
+
 
     };
 
@@ -298,7 +303,7 @@ module.exports = function (grunt) {
     grunt.registerTask(
         'adbpull',
         'Perform all the adbpull tasks',
-        ['adbpull-debug', 'adbpull-db', 'adbpull-csv']);
+        ['adbpull-debug', 'adbpull-db', 'adbpull-csv', 'adbpull-instances']);
 
     // Just an alias task--shorthand for doing all the pushings
     grunt.registerTask(
@@ -342,6 +347,17 @@ module.exports = function (grunt) {
             var src = tablesConfig.deviceMount + '/' + tablesConfig.appName +
                 '/' + tablesConfig.outputCsvDir;
             var dest = tablesConfig.appDir + '/' + tablesConfig.outputCsvDir;
+            grunt.log.writeln('adb pull ' + src + ' ' + dest);
+            grunt.task.run('exec:adbpull:' + src + ':' + dest);
+        });
+
+    grunt.registerTask(
+        'adbpull-instances',
+        'Pull any pictures, videos, etc. from the device',
+        function() {
+            var src = tablesConfig.deviceMount + '/' + tablesConfig.appName +
+                '/' + tablesConfig.instanceDir;
+            var dest = tablesConfig.appDir + '/' + tablesConfig.outputInstancesDir;
             grunt.log.writeln('adb pull ' + src + ' ' + dest);
             grunt.task.run('exec:adbpull:' + src + ':' + dest);
         });
