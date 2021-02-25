@@ -703,8 +703,8 @@
         "display": {
           "prompt": {
             "text": {
-              "english": "Who chose this place to deliver the baby? <br><br><i> [multiple answers allowed, prompt with “anyone else?”]</i>",
-              "default": "Quem escolheu este lugar para dar à luz? <br><br><i>[respostas múltiplas permitidas, pergunte “mais alguém?”]</i>"
+              "english": "Who chose this place [= intended place] to deliver the baby? <br><br><i> multiple answers allowed, prompt with “anyone else?”</i>",
+              "default": "Quem escolheu este lugar [=lugar planejado] para dar à luz? <br><br><i>respostas múltiplas permitidas, pergunte “mais alguém?”</i>"
             }
           }
         },
@@ -971,7 +971,7 @@
       },
       {
         "type": "text",
-        "name": "especifique_maternityhome",
+        "name": "especifique_maternityhome_tempo",
         "display": {
           "prompt": {
             "text": {
@@ -1083,7 +1083,7 @@
       },
       {
         "type": "text",
-        "name": "especifique_fotepag",
+        "name": "especifique_fotepag_v",
         "display": {
           "prompt": {
             "text": {
@@ -1172,7 +1172,7 @@
       },
       {
         "type": "text",
-        "name": "especifique_fotepag",
+        "name": "especifique_fotepag_hf",
         "display": {
           "prompt": {
             "text": {
@@ -1324,7 +1324,7 @@
       },
       {
         "type": "text",
-        "name": "especifique_concerns",
+        "name": "especifique_outrorazon",
         "display": {
           "prompt": {
             "text": {
@@ -1389,8 +1389,8 @@
         "display": {
           "prompt": {
             "text": {
-              "english": "<b>End of interview</b>",
-              "default": "<b>Fim de entrevista</b>"
+              "english": "<b>End of interview:</b> Thank you very much for your comments. I have no further questions. Do you have any questions about our research or final comments to the interview?",
+              "default": "<b>Fim de entrevista:</b>Muito obrigado por seus comentários. Não tenho mais perguntas. Você tem alguma pergunta sobre nossa pesquisa ou comentários finais sobre a entrevista?"
             }
           }
         },
@@ -2136,8 +2136,8 @@
         "display": {
           "title": {
             "text": {
-              "english": "Thought it was too late to reach health facility in time",
-              "default": "Achou que era tarde demais para chegar à unidade de saúde"
+              "english": "Thought it was too late to reach health facility in time before delivery",
+              "default": "Achou que era tarde demais para chegar à unidade de saúde antes do parto o bebê"
             }
           }
         },
@@ -2782,6 +2782,19 @@
       },
       {
         "choice_list_name": "mesmo",
+        "data_value": "4",
+        "display": {
+          "title": {
+            "text": {
+              "english": "No, more than two days before",
+              "default": "Não, mais do que dois dias antes"
+            }
+          }
+        },
+        "_row_num": 108
+      },
+      {
+        "choice_list_name": "mesmo",
         "data_value": "33",
         "display": {
           "title": {
@@ -2791,7 +2804,7 @@
             }
           }
         },
-        "_row_num": 108
+        "_row_num": 109
       },
       {
         "choice_list_name": "mesmo",
@@ -2804,7 +2817,7 @@
             }
           }
         },
-        "_row_num": 109
+        "_row_num": 110
       }
     ],
     "prompt_types": [
@@ -3688,8 +3701,8 @@
           "display": {
             "title": {
               "text": {
-                "english": "Thought it was too late to reach health facility in time",
-                "default": "Achou que era tarde demais para chegar à unidade de saúde"
+                "english": "Thought it was too late to reach health facility in time before delivery",
+                "default": "Achou que era tarde demais para chegar à unidade de saúde antes do parto o bebê"
               }
             }
           },
@@ -4344,6 +4357,19 @@
         },
         {
           "choice_list_name": "mesmo",
+          "data_value": "4",
+          "display": {
+            "title": {
+              "text": {
+                "english": "No, more than two days before",
+                "default": "Não, mais do que dois dias antes"
+              }
+            }
+          },
+          "_row_num": 108
+        },
+        {
+          "choice_list_name": "mesmo",
           "data_value": "33",
           "display": {
             "title": {
@@ -4353,7 +4379,7 @@
               }
             }
           },
-          "_row_num": 108
+          "_row_num": 109
         },
         {
           "choice_list_name": "mesmo",
@@ -4366,7 +4392,7 @@
               }
             }
           },
-          "_row_num": 109
+          "_row_num": 110
         }
       ]
     },
@@ -4691,10 +4717,6 @@
           {
             "_row_num": 115,
             "section_name": "survey"
-          },
-          {
-            "_row_num": 169,
-            "section_name": "survey"
           }
         ],
         "elementKey": "especifique_concerns"
@@ -4730,18 +4752,24 @@
         "elementKey": "maternityhome"
       },
       "especifique_maternityhome": {
-        "type": "string",
         "_defn": [
           {
             "_row_num": 123,
             "section_name": "survey"
-          },
+          }
+        ],
+        "type": "string",
+        "elementKey": "especifique_maternityhome"
+      },
+      "especifique_maternityhome_tempo": {
+        "_defn": [
           {
             "_row_num": 124,
             "section_name": "survey"
           }
         ],
-        "elementKey": "especifique_maternityhome"
+        "type": "string",
+        "elementKey": "especifique_maternityhome_tempo"
       },
       "transporte": {
         "_defn": [
@@ -4800,19 +4828,15 @@
         "valuesList": "fonte_pagamento",
         "elementKey": "pagamento_v_ori"
       },
-      "especifique_fotepag": {
-        "type": "string",
+      "especifique_fotepag_v": {
         "_defn": [
           {
             "_row_num": 137,
             "section_name": "survey"
-          },
-          {
-            "_row_num": 149,
-            "section_name": "survey"
           }
         ],
-        "elementKey": "especifique_fotepag"
+        "type": "string",
+        "elementKey": "especifique_fotepag_v"
       },
       "pagamento_hf": {
         "_defn": [
@@ -4849,6 +4873,16 @@
         },
         "valuesList": "fonte_pagamento",
         "elementKey": "pagamento_hf_ori"
+      },
+      "especifique_fotepag_hf": {
+        "_defn": [
+          {
+            "_row_num": 149,
+            "section_name": "survey"
+          }
+        ],
+        "type": "string",
+        "elementKey": "especifique_fotepag_hf"
       },
       "recibo": {
         "_defn": [
@@ -4931,6 +4965,16 @@
         ],
         "type": "string",
         "elementKey": "especifique_badexp"
+      },
+      "especifique_outrorazon": {
+        "_defn": [
+          {
+            "_row_num": 169,
+            "section_name": "survey"
+          }
+        ],
+        "type": "string",
+        "elementKey": "especifique_outrorazon"
       },
       "honesta": {
         "_defn": [
@@ -5569,8 +5613,8 @@
             "display": {
               "prompt": {
                 "text": {
-                  "english": "Who chose this place to deliver the baby? <br><br><i> [multiple answers allowed, prompt with “anyone else?”]</i>",
-                  "default": "Quem escolheu este lugar para dar à luz? <br><br><i>[respostas múltiplas permitidas, pergunte “mais alguém?”]</i>"
+                  "english": "Who chose this place [= intended place] to deliver the baby? <br><br><i> multiple answers allowed, prompt with “anyone else?”</i>",
+                  "default": "Quem escolheu este lugar [=lugar planejado] para dar à luz? <br><br><i>respostas múltiplas permitidas, pergunte “mais alguém?”</i>"
                 }
               }
             },
@@ -5814,7 +5858,7 @@
           },
           {
             "type": "text",
-            "name": "especifique_maternityhome",
+            "name": "especifique_maternityhome_tempo",
             "display": {
               "prompt": {
                 "text": {
@@ -5925,7 +5969,7 @@
           },
           {
             "type": "text",
-            "name": "especifique_fotepag",
+            "name": "especifique_fotepag_v",
             "display": {
               "prompt": {
                 "text": {
@@ -5999,7 +6043,7 @@
           },
           {
             "type": "text",
-            "name": "especifique_fotepag",
+            "name": "especifique_fotepag_hf",
             "display": {
               "prompt": {
                 "text": {
@@ -6129,7 +6173,7 @@
           },
           {
             "type": "text",
-            "name": "especifique_concerns",
+            "name": "especifique_outrorazon",
             "display": {
               "prompt": {
                 "text": {
@@ -6188,8 +6232,8 @@
             "display": {
               "prompt": {
                 "text": {
-                  "english": "<b>End of interview</b>",
-                  "default": "<b>Fim de entrevista</b>"
+                  "english": "<b>End of interview:</b> Thank you very much for your comments. I have no further questions. Do you have any questions about our research or final comments to the interview?",
+                  "default": "<b>Fim de entrevista:</b>Muito obrigado por seus comentários. Não tenho mais perguntas. Você tem alguma pergunta sobre nossa pesquisa ou comentários finais sobre a entrevista?"
                 }
               }
             },
@@ -7261,10 +7305,6 @@
           {
             "_row_num": 115,
             "section_name": "survey"
-          },
-          {
-            "_row_num": 169,
-            "section_name": "survey"
           }
         ],
         "elementKey": "especifique_concerns",
@@ -7309,21 +7349,30 @@
         "elementPath": "maternityhome"
       },
       "especifique_maternityhome": {
-        "type": "string",
         "_defn": [
           {
             "_row_num": 123,
             "section_name": "survey"
-          },
+          }
+        ],
+        "type": "string",
+        "elementKey": "especifique_maternityhome",
+        "elementName": "especifique_maternityhome",
+        "elementSet": "data",
+        "elementPath": "especifique_maternityhome"
+      },
+      "especifique_maternityhome_tempo": {
+        "_defn": [
           {
             "_row_num": 124,
             "section_name": "survey"
           }
         ],
-        "elementKey": "especifique_maternityhome",
-        "elementName": "especifique_maternityhome",
+        "type": "string",
+        "elementKey": "especifique_maternityhome_tempo",
+        "elementName": "especifique_maternityhome_tempo",
         "elementSet": "data",
-        "elementPath": "especifique_maternityhome"
+        "elementPath": "especifique_maternityhome_tempo"
       },
       "transporte": {
         "_defn": [
@@ -7404,22 +7453,18 @@
           "pagamento_v_ori_items"
         ]
       },
-      "especifique_fotepag": {
-        "type": "string",
+      "especifique_fotepag_v": {
         "_defn": [
           {
             "_row_num": 137,
             "section_name": "survey"
-          },
-          {
-            "_row_num": 149,
-            "section_name": "survey"
           }
         ],
-        "elementKey": "especifique_fotepag",
-        "elementName": "especifique_fotepag",
+        "type": "string",
+        "elementKey": "especifique_fotepag_v",
+        "elementName": "especifique_fotepag_v",
         "elementSet": "data",
-        "elementPath": "especifique_fotepag"
+        "elementPath": "especifique_fotepag_v"
       },
       "pagamento_hf": {
         "_defn": [
@@ -7472,6 +7517,19 @@
         "listChildElementKeys": [
           "pagamento_hf_ori_items"
         ]
+      },
+      "especifique_fotepag_hf": {
+        "_defn": [
+          {
+            "_row_num": 149,
+            "section_name": "survey"
+          }
+        ],
+        "type": "string",
+        "elementKey": "especifique_fotepag_hf",
+        "elementName": "especifique_fotepag_hf",
+        "elementSet": "data",
+        "elementPath": "especifique_fotepag_hf"
       },
       "recibo": {
         "_defn": [
@@ -7590,6 +7648,19 @@
         "elementName": "especifique_badexp",
         "elementSet": "data",
         "elementPath": "especifique_badexp"
+      },
+      "especifique_outrorazon": {
+        "_defn": [
+          {
+            "_row_num": 169,
+            "section_name": "survey"
+          }
+        ],
+        "type": "string",
+        "elementKey": "especifique_outrorazon",
+        "elementName": "especifique_outrorazon",
+        "elementSet": "data",
+        "elementPath": "especifique_outrorazon"
       },
       "honesta": {
         "_defn": [
@@ -7808,7 +7879,7 @@
         "_aspect": "concerns_2",
         "_key": "displayChoicesList",
         "_type": "object",
-        "_value": "[{\"choice_list_name\":\"concernsc\",\"data_value\":\"1\",\"display\":{\"title\":{\"text\":{\"english\":\"Did not think it was necessary to go to a health facility\",\"default\":\"Não achou necessário ir a uma unidade de saúde\"}}},\"_row_num\":57},{\"choice_list_name\":\"concernsc\",\"data_value\":\"2\",\"display\":{\"title\":{\"text\":{\"english\":\"Thought it was too late to reach health facility in time\",\"default\":\"Achou que era tarde demais para chegar à unidade de saúde\"}}},\"_row_num\":58},{\"choice_list_name\":\"concernsc\",\"data_value\":\"3\",\"display\":{\"title\":{\"text\":{\"english\":\"Thought her condition did not allow to travel\",\"default\":\"Achou que sua condição não permitia viajar\"}}},\"_row_num\":59},{\"choice_list_name\":\"concernsc\",\"data_value\":\"4\",\"display\":{\"title\":{\"text\":{\"english\":\"No one available to go with her\",\"default\":\"Ninguém disponível para ir com ela\"}}},\"_row_num\":60},{\"choice_list_name\":\"concernsc\",\"data_value\":\"5\",\"display\":{\"title\":{\"text\":{\"english\":\"Too much time away from her regular duties\",\"default\":\"Muito tempo afastada de suas tarefas regulares [ka tene tempo por causa de trabadjo]\"}}},\"_row_num\":61},{\"choice_list_name\":\"concernsc\",\"data_value\":\"6\",\"display\":{\"title\":{\"text\":{\"english\":\"Someone else <i>[S!]</i> had to decide\",\"default\":\"Outra pessoa <i>[E!]</i> teve que decidir\"}}},\"_row_num\":62},{\"choice_list_name\":\"concernsc\",\"data_value\":\"7\",\"display\":{\"title\":{\"text\":{\"english\":\"Too far to travel\",\"default\":\"Muito longe para viajar\"}}},\"_row_num\":63},{\"choice_list_name\":\"concernsc\",\"data_value\":\"8\",\"display\":{\"title\":{\"text\":{\"english\":\"No transportation available\",\"default\":\"Sem transporte disponível\"}}},\"_row_num\":64},{\"choice_list_name\":\"concernsc\",\"data_value\":\"9\",\"display\":{\"title\":{\"text\":{\"english\":\"Cost for transport\",\"default\":\"Custo de transporte\"}}},\"_row_num\":65},{\"choice_list_name\":\"concernsc\",\"data_value\":\"10\",\"display\":{\"title\":{\"text\":{\"english\":\"Cost for health provider\",\"default\":\"Custo de prestator de saúde\"}}},\"_row_num\":66},{\"choice_list_name\":\"concernsc\",\"data_value\":\"11\",\"display\":{\"title\":{\"text\":{\"english\":\"Not satisfied with available health care\",\"default\":\"Não satisfeito com os cuidados de saúde disponíveis\"}}},\"_row_num\":67},{\"choice_list_name\":\"concernsc\",\"data_value\":\"12\",\"display\":{\"title\":{\"text\":{\"english\":\"Required traditional care\",\"default\":\"Cuidados tradicionais necessários\"}}},\"_row_num\":68},{\"choice_list_name\":\"concernsc\",\"data_value\":\"13\",\"display\":{\"title\":{\"text\":{\"english\":\"Was late at night (transportation or provider not available)\",\"default\":\"Estava tarde da noite (transporte ou prestador não disponível)\"}}},\"_row_num\":69},{\"choice_list_name\":\"concernsc\",\"data_value\":\"14\",\"display\":{\"title\":{\"text\":{\"english\":\"Fears of exposure to male health providers\",\"default\":\"Medo de exposição a profissionais de saúde do sexo masculino\"}}},\"_row_num\":70},{\"choice_list_name\":\"concernsc\",\"data_value\":\"15\",\"display\":{\"title\":{\"text\":{\"english\":\"Other <i>[S!]</i>\",\"default\":\"Outro <i>[E!]</i>\"}}},\"_row_num\":71},{\"choice_list_name\":\"concernsc\",\"data_value\":\"33\",\"display\":{\"title\":{\"text\":{\"english\":\"Don’t know\",\"default\":\"Não sabe\"}}},\"_row_num\":72},{\"choice_list_name\":\"concernsc\",\"data_value\":\"66\",\"display\":{\"title\":{\"text\":{\"english\":\"Refused to answer\",\"default\":\"Recusou-se a responder\"}}},\"_row_num\":73}]"
+        "_value": "[{\"choice_list_name\":\"concernsc\",\"data_value\":\"1\",\"display\":{\"title\":{\"text\":{\"english\":\"Did not think it was necessary to go to a health facility\",\"default\":\"Não achou necessário ir a uma unidade de saúde\"}}},\"_row_num\":57},{\"choice_list_name\":\"concernsc\",\"data_value\":\"2\",\"display\":{\"title\":{\"text\":{\"english\":\"Thought it was too late to reach health facility in time before delivery\",\"default\":\"Achou que era tarde demais para chegar à unidade de saúde antes do parto o bebê\"}}},\"_row_num\":58},{\"choice_list_name\":\"concernsc\",\"data_value\":\"3\",\"display\":{\"title\":{\"text\":{\"english\":\"Thought her condition did not allow to travel\",\"default\":\"Achou que sua condição não permitia viajar\"}}},\"_row_num\":59},{\"choice_list_name\":\"concernsc\",\"data_value\":\"4\",\"display\":{\"title\":{\"text\":{\"english\":\"No one available to go with her\",\"default\":\"Ninguém disponível para ir com ela\"}}},\"_row_num\":60},{\"choice_list_name\":\"concernsc\",\"data_value\":\"5\",\"display\":{\"title\":{\"text\":{\"english\":\"Too much time away from her regular duties\",\"default\":\"Muito tempo afastada de suas tarefas regulares [ka tene tempo por causa de trabadjo]\"}}},\"_row_num\":61},{\"choice_list_name\":\"concernsc\",\"data_value\":\"6\",\"display\":{\"title\":{\"text\":{\"english\":\"Someone else <i>[S!]</i> had to decide\",\"default\":\"Outra pessoa <i>[E!]</i> teve que decidir\"}}},\"_row_num\":62},{\"choice_list_name\":\"concernsc\",\"data_value\":\"7\",\"display\":{\"title\":{\"text\":{\"english\":\"Too far to travel\",\"default\":\"Muito longe para viajar\"}}},\"_row_num\":63},{\"choice_list_name\":\"concernsc\",\"data_value\":\"8\",\"display\":{\"title\":{\"text\":{\"english\":\"No transportation available\",\"default\":\"Sem transporte disponível\"}}},\"_row_num\":64},{\"choice_list_name\":\"concernsc\",\"data_value\":\"9\",\"display\":{\"title\":{\"text\":{\"english\":\"Cost for transport\",\"default\":\"Custo de transporte\"}}},\"_row_num\":65},{\"choice_list_name\":\"concernsc\",\"data_value\":\"10\",\"display\":{\"title\":{\"text\":{\"english\":\"Cost for health provider\",\"default\":\"Custo de prestator de saúde\"}}},\"_row_num\":66},{\"choice_list_name\":\"concernsc\",\"data_value\":\"11\",\"display\":{\"title\":{\"text\":{\"english\":\"Not satisfied with available health care\",\"default\":\"Não satisfeito com os cuidados de saúde disponíveis\"}}},\"_row_num\":67},{\"choice_list_name\":\"concernsc\",\"data_value\":\"12\",\"display\":{\"title\":{\"text\":{\"english\":\"Required traditional care\",\"default\":\"Cuidados tradicionais necessários\"}}},\"_row_num\":68},{\"choice_list_name\":\"concernsc\",\"data_value\":\"13\",\"display\":{\"title\":{\"text\":{\"english\":\"Was late at night (transportation or provider not available)\",\"default\":\"Estava tarde da noite (transporte ou prestador não disponível)\"}}},\"_row_num\":69},{\"choice_list_name\":\"concernsc\",\"data_value\":\"14\",\"display\":{\"title\":{\"text\":{\"english\":\"Fears of exposure to male health providers\",\"default\":\"Medo de exposição a profissionais de saúde do sexo masculino\"}}},\"_row_num\":70},{\"choice_list_name\":\"concernsc\",\"data_value\":\"15\",\"display\":{\"title\":{\"text\":{\"english\":\"Other <i>[S!]</i>\",\"default\":\"Outro <i>[E!]</i>\"}}},\"_row_num\":71},{\"choice_list_name\":\"concernsc\",\"data_value\":\"33\",\"display\":{\"title\":{\"text\":{\"english\":\"Don’t know\",\"default\":\"Não sabe\"}}},\"_row_num\":72},{\"choice_list_name\":\"concernsc\",\"data_value\":\"66\",\"display\":{\"title\":{\"text\":{\"english\":\"Refused to answer\",\"default\":\"Recusou-se a responder\"}}},\"_row_num\":73}]"
       },
       {
         "_partition": "Column",
@@ -7864,7 +7935,7 @@
         "_aspect": "mesmo_dia",
         "_key": "displayChoicesList",
         "_type": "object",
-        "_value": "[{\"choice_list_name\":\"mesmo\",\"data_value\":\"1\",\"display\":{\"title\":{\"text\":{\"english\":\"Yes\",\"default\":\"Sim\"}}},\"_row_num\":105},{\"choice_list_name\":\"mesmo\",\"data_value\":\"2\",\"display\":{\"title\":{\"text\":{\"english\":\"No, on the previous day\",\"default\":\"Não, no dia anterior\"}}},\"_row_num\":106},{\"choice_list_name\":\"mesmo\",\"data_value\":\"3\",\"display\":{\"title\":{\"text\":{\"english\":\"No, two days before\",\"default\":\"Não, dois dias antes\"}}},\"_row_num\":107},{\"choice_list_name\":\"mesmo\",\"data_value\":\"33\",\"display\":{\"title\":{\"text\":{\"english\":\"Don’t know\",\"default\":\"Não sabe\"}}},\"_row_num\":108},{\"choice_list_name\":\"mesmo\",\"data_value\":\"66\",\"display\":{\"title\":{\"text\":{\"english\":\"Refused to answer\",\"default\":\"Recusou-se a responder\"}}},\"_row_num\":109}]"
+        "_value": "[{\"choice_list_name\":\"mesmo\",\"data_value\":\"1\",\"display\":{\"title\":{\"text\":{\"english\":\"Yes\",\"default\":\"Sim\"}}},\"_row_num\":105},{\"choice_list_name\":\"mesmo\",\"data_value\":\"2\",\"display\":{\"title\":{\"text\":{\"english\":\"No, on the previous day\",\"default\":\"Não, no dia anterior\"}}},\"_row_num\":106},{\"choice_list_name\":\"mesmo\",\"data_value\":\"3\",\"display\":{\"title\":{\"text\":{\"english\":\"No, two days before\",\"default\":\"Não, dois dias antes\"}}},\"_row_num\":107},{\"choice_list_name\":\"mesmo\",\"data_value\":\"4\",\"display\":{\"title\":{\"text\":{\"english\":\"No, more than two days before\",\"default\":\"Não, mais do que dois dias antes\"}}},\"_row_num\":108},{\"choice_list_name\":\"mesmo\",\"data_value\":\"33\",\"display\":{\"title\":{\"text\":{\"english\":\"Don’t know\",\"default\":\"Não sabe\"}}},\"_row_num\":109},{\"choice_list_name\":\"mesmo\",\"data_value\":\"66\",\"display\":{\"title\":{\"text\":{\"english\":\"Refused to answer\",\"default\":\"Recusou-se a responder\"}}},\"_row_num\":110}]"
       },
       {
         "_partition": "Column",
