@@ -69,7 +69,7 @@ function populateView() {
 
 function setDisplayText(person) {
     var date;
-    if (person.DATE == "D:NS,M:NS,Y:NS" | person.C_DATE === null) {
+    if (person.DATE == "D:NS,M:NS,Y:NS" | person.DATE === null) {
        date = "Não sabe";
     } else {
        date = formatDate(person.DATE);
